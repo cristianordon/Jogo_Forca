@@ -11,7 +11,7 @@
 
 body {
     margin: 0px;
-    background-color: rgb(250, 250, 250);
+    background-color: #ffffff;
 }
 
 a {
@@ -176,15 +176,14 @@ header {
 
 #keyboard-container {
     display: none
+    
 }
 
 #keyboard-container.visible {
     display: block;
 }
 
-#keyboard-switch {
-    margin-bottom: 5px;
-}
+
 
 #keyboard-switch a {
     padding: 2px 20px;
@@ -202,6 +201,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
+    background-color: rgb(190, 156, 156);
 }
 
 .key {
