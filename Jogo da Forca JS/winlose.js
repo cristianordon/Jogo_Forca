@@ -21,7 +21,7 @@ function alert(alertText) {
 }
 
 if (currentWord.mistakes == 6) {
-    alert("Que pena! Você Perdeu! :(")
+    alert("Que pena! Você Perdeu!" )
 } else {
     if (currentWord.corrects == currentWord.characters.length) {
         alert("Parabéns! Você Ganhou! :D")

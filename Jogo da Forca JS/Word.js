@@ -53,7 +53,7 @@ export class Word {
         }
 
         if (this.mistakes == 6) {
-            gameAlert("Que pena! Você Perdeu! :(")
+            gameAlert("Que pena! Você Perdeu!")
             
         } else {
             if (this.corrects == this.characters.length) {
