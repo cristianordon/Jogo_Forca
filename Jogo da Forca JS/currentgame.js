@@ -18,13 +18,12 @@ const themeSelector = document.querySelector("#theme-selector");
 newGameButton.addEventListener("click", () => {themeSelector.classList.toggle("visible")})
 
 const listaPalavras = [
-    "wifi",
     "monitor",
     "teclado",
     "estabilizador",
     "cpu",
     "usb",
-    "roteador",
+    "roteador"
 ];
 
 let themeButtons = document.querySelectorAll(".theme");

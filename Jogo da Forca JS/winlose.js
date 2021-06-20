@@ -12,7 +12,7 @@ import {Word} from "./Word.js";
 import {currentWord} from "./currentgame.js";
 
 const alertBox = document.querySelector("#alert-box");
-const gameKeyboard = document.querySelector("#keyboard-container")
+
 
 function alert(alertText) {
     alertBox.innerHTML = alertText;
