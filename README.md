@@ -16,3 +16,4 @@ Como jogar:
 
 
 
+Link para o jogo: https://jogo-da-forca-js.netlify.app/
